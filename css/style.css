@@ -2428,6 +2428,11 @@ blockquote {
 	list-style-type: none;
 }
 
+.alert.alert-success{
+	color: #ffffff;
+	background-color: #1ABC9C;
+	border-color: #1ABC9C;
+}
 
 /*
 	==================

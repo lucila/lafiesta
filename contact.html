@@ -90,13 +90,18 @@
 					<p>Si queres dejarnos un mensaje o consularnos algo de la fiesta, podes escribirnos aca!</p>
 				</div>
 			</div>
+
+      <div class="row">
+        <div class="alert alert-success">El mensaje se está enviando. Gracias!</div>
+      </div>
+
 			<div class="row padd20-top-btm">
 				<form method="post" action="contact.html">
 					<div class="col-md-5 col-sm-5">
 						<h3>Dejanos tu mensaje</h3>
 						<input type="text" name="name" class="form-control" placeholder="Tu nombre" required>
 						<input type="email" name="email" class="form-control" placeholder="Tu mail">
-						<input type="text" name="subject" class="form-control" placeholder="Tu teléfono">
+						<input type="text" name="telephone" class="form-control" placeholder="Tu teléfono">
 					</div>
 					<div class="col-md-7 col-sm-7">
 						<textarea name="message" class="form-control" rows="7" placeholder="Tu mensaje" required></textarea>
@@ -202,6 +207,8 @@
 	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&amp;language=en"></script>
     <script src="js/gmap3.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+    <script type="text/javascript" src="http://www.parse.com/downloads/javascript/parse-1.2.18.min.js"></script>
 
   </body>
 </html>
