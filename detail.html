@@ -18,6 +18,7 @@
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
 
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -26,7 +27,7 @@
   </head>
 
   <body>
-	
+
 	<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -82,11 +83,11 @@
 				</ul>
 			  </li>
 			</ul>
-          
+
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-	
+
 	<!-- begin:heading -->
 	<div class="heads" style="background: url(img/img02.jpg) center center;">
 		<div class="container">
@@ -98,7 +99,7 @@
 		</div>
 	</div>
 	<!-- end:heading -->
-	
+
 	<!-- begin:content -->
 	<div class="page-content">
 		<div class="container">
@@ -110,14 +111,14 @@
 				    </ol>
 				</div>
 			</div>
-			
+
 			<div class="row">
 				<!-- begin:product-content -->
 				<div class="col-md-9 col-sm-9 single-item">
 					<div class="row">
 						<div class="col-md-5 col-sm-5">
 							<div id="itemsingle" class="carousel slide clearfix">
-							
+
 								<div class="carousel-inner">
 								  <div class="item active">
 									<img src="img/manuk.jpg" alt="slider detail dodolan manuk">
@@ -129,13 +130,13 @@
 									<img src="img/manuk.jpg" alt="slider detail dodolan manuk">
 								  </div>
 								</div>
-								
+
 								<ol class="carousel-indicators">
 								  <li data-target="#itemsingle" data-slide-to="0" class="active"><img src="img/manuk.jpg" class="img-responsive" alt="slider detail dodolan manuk"></li>
 								  <li data-target="#itemsingle" data-slide-to="1" class=""><img src="img/manuk.jpg" class="img-responsive" alt="slider detail dodolan manuk"></li>
 								  <li data-target="#itemsingle" data-slide-to="2" class=""><img src="img/manuk.jpg" class="img-responsive" alt="slider detail dodolan manuk"></li>
 								</ol>
-							
+
 							</div>
 						</div>
 						<div class="col-md-7 col-sm-7">
@@ -143,6 +144,8 @@
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus quis lectus metus, at posuere neque. Sed pharetra nibh eget orci convallis at posuere leo convallis. Sed blandit augue vitae augue scelerisque bibendum. Vivamus sit amet libero turpis, non venenatis urna. In blandit, odio convallis suscipit venenatis, ante ipsum cursus augue.</p>
 							<p>Item Code : <span class="label label-success">#2120</span></p>
 							<h4>$200</h4>
+							<!-- Here you must insert the URL for the "init_point" -->
+							<a href="https://www.mercadopago.com/mla/checkout/pay?pref_id=91643794-b5cea3bb-3d34-4afc-9131-2ae27d32abc5" name="MP-Checkout" class="icon-shopping-cart" mp-mode="blank">Pay NOW</a>
 							<p><a href="#" class="btn btn-green btn-large"><i class="icon-shopping-cart"></i> Order Now</a></p>
 						</div>
 					</div>
@@ -204,7 +207,7 @@
 					<!-- end:tab -->
 				</div>
 				<!-- end:product-content -->
-				
+
 				<!-- begin:product-sidebar -->
 				<div class="col-md-3 col-sm-3">
 					<div class="row sidebar">
@@ -270,7 +273,7 @@
 							  <li><a href="product.html">Pitik</a></li>
 							  <li><a href="product.html">Gemak</a></li>
 							</ul>
-							
+
 							<h3>Information</h3>
 							<ul class="nav nav-pills nav-stacked">
 							  <li><a href="confirm.html">Payment Confirmation</a></li>
@@ -285,11 +288,11 @@
 					</div>
 				</div>
 				<!-- end:product-sidebar -->
-			
+
 			</div>
 		</div>
 	</div>
-	
+
 	<!-- begin:footer -->
 	<div id="footer">
 		<div class="container">
@@ -319,7 +322,7 @@
 		</div>
 	</div>
 	<!-- end:footer -->
-	
+
 	<!-- begin:copyright -->
 	<div id="copyright">
 		<div class="container">
@@ -341,5 +344,11 @@
     <script src="js/gmap3.js"></script>
     <script src="js/script.js"></script>
 
+    <script type="text/javascript">
+    (function(){function $MPBR_load(){window.$MPBR_loaded !== true && (function(){var s = document.createElement("script");s.type = "text/javascript";s.async = true;
+    s.src = ("https:"==document.location.protocol?"https://www.mercadopago.com/org-img/jsapi/mptools/buttons/":"http://mp-tools.mlstatic.com/buttons/")+"render.js";
+    var x = document.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);window.$MPBR_loaded = true;})();}
+    window.$MPBR_loaded !== true ? (window.attachEvent ? window.attachEvent('onload', $MPBR_load) : window.addEventListener('load', $MPBR_load, false)) : null;})();
+</script>
   </body>
 </html>
