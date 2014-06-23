@@ -6,10 +6,10 @@ var submitButton;
 
 $(function() {
 
-	$(".alert").hide();
+  $(".alert").hide();
 
   Parse.initialize("PDB5QBeC6rYtGz7E20FUOIWftIBjENipGzh2acdQ", "0LSDDUWavgPK5WB8U67yhskNrrraxXTH3lQudcHE");
-  
+
   nameInput = $('[name="name"]');
   emailInput = $('[name="email"]');
   telephoneInput = $('[name="telephone"]');
@@ -17,29 +17,29 @@ $(function() {
   submitButton = $('[name="submit"]');
 
   //loding handlers
-	$( "form" ).submit(function( event ) {
-	  event.preventDefault();
-	  if(validateFormData()){
-	  		sendFormData();
-	  	}	
-	});
+  $( "form" ).submit(function( event ) {
+    event.preventDefault();
+    if(validateFormData()){
+        sendFormData();
+      }
+  });
 });
 
 function validateFormData(){
-	return true;
+  return true;
 }
 
 function sendFormData(){
-	var ContactObject = Parse.Object.extend("ContactForm");
-	var contactObject = new ContactObject();
-	contactObject.save(
-		{	
-			name: nameInput.val(),
-			email: emailInput.val(),
-			telephone: telephoneInput.val(),
-			message: messageInput.val()
-		}).then(function(object) {
-  		$(".alert").show();
-  		$( "form" )[0].reset();
-		});
+  var ContactObject = Parse.Object.extend("ContactForm");
+  var contactObject = new ContactObject();
+  contactObject.save(
+    {
+      name: nameInput.val(),
+      email: emailInput.val(),
+      telephone: telephoneInput.val(),
+      message: messageInput.val()
+    }).then(function(object) {
+      $(".alert").show();
+      $( "form" )[0].reset();
+    });
 }
