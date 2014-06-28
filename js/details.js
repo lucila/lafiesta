@@ -2,7 +2,7 @@ var data=[
   {
     "id": 1,
     "name": "30.000 Millas",
-    "desc": "Tenemos que volar más de 30.000 millas para hacer los safaris en el parque nacional Serengeti, disfrutar del paisaje del crater en Ngorongoro, y descansar en las playas paradisíacas de Zanzibar. Acercanos a esos lugares regalandonos una parte de ese recorrido!",
+    "desc": "Tenemos que volar más de 30.000 millas para hacer los safaris en el parque nacional Serengeti, disfrutar del paisaje del crater en Ngorongoro, y disfrutar en las playas paradisíacas de Zanzibar. Acercanos a esos lugares regalandonos una parte de ese recorrido!",
     "price": "100 cada 100 millas",
     "img": "http://www.turisticaonline.com/images/news/5386_1.jpg",
     "mail_title": "parte de las 30.000 millas"
@@ -26,7 +26,7 @@ var data=[
   {
     "id": 4,
     "name": "Visa para Tanzania",
-    "desc": "Sin la visa para entrar a Tanzania no podemos hacer los safaris ni descansar en las playas de Zanzibar. Importantisimo este regalo!",
+    "desc": "Sin la visa para entrar a Tanzania no podemos hacer los safaris ni disfrutar de las playas de Zanzibar. Importantisimo este regalo!",
     "price": "1200",
     "img": "http://gogetfunding.com/img/extra_project_images/49211/Tanzania_Safari_Of_Tanzania.jpg",
     "mail_title": "la visas para entrar a Tanzania"
