@@ -4,13 +4,14 @@ $(document).ready(function() {
 	$("#maps").gmap3({
 		map: {
 			options: {
-			  center: [-34.7182547,-58.2418187],
+			  center: [-34.7214128,-58.2447557],
 			  zoom: 15,
 			  scrollwheel: true
 			}
 		 },
 		marker:{
-			latLng: [-34.7229329,-58.24066],
+			latLng: [-34.7246272,-58.2437632],
+			data: "Guido 800, Quilmes",
 			options: {
 			}
 		 }
