@@ -250,10 +250,34 @@ var data=[
   {
     "id": 32,
     "name": "Efectivo para el viaje",
-    "desc": "¿No sabés que regalar? Un poco de efectivo para siempre viene bien. 1 peso es como 1 South African Rand o como 200 Tanzanian Shilling!",
+    "desc": "¿No sabés que regalar? Un poco de efectivo para siempre viene bien. 1 peso es como 1 South African Rand o como 200 Tanzanian Shilling! Elegí el monto que quieras.",
     "price": "1",
     "img": "http://www.24tanzania.com/wp-content/uploads/2013/08/b389Tanzania-Shilling.jpg",
     "mail_title": "efectivo para el viaje"
+  },
+  {
+    "id": 33,
+    "name": "Licuados en la playa de Zanzibar, Tanzania",
+    "desc": "Unos buenos licuados en la playa.",
+    "price": "50",
+    "img": "http://www.cotewrites.com/blog/wp-content/uploads/2011/01/Margaritas-on-Beach-1024x768.jpg",
+    "mail_title": "unos licuados en la playa"
+  },
+  {
+    "id": 34,
+    "name": "Cervezas frente a la playa artificial de Sun City, Sudáfrica",
+    "desc": "Un par de cervezas bien heladas en el bar que está frente a las olas artificiales de la playa de Sun City, en Sudáfrica.",
+    "price": "80",
+    "img": "http://i.dailymail.co.uk/i/pix/2012/06/12/article-2158123-13934C45000005DC-647_634x460.jpg",
+    "mail_title": "unas cervezas en Sun City"
+  },
+  {
+    "id": 35,
+    "name": "Unos Pao de quijo en el aeropuerto de Sao Paulo, Brazil",
+    "desc": "En la escala que tenemos que hacer en Sao Paulo para llegar a Sudáfrica, podemos matar el tiempo comiendo...",
+    "price": "30",
+    "img": "http://www.seriouseats.com/images/20110328-pao-de-queijo-500.jpg",
+    "mail_title": "unos pao de queijo en el aeropuerto de Sao Paulo"
   }
 ];
 
